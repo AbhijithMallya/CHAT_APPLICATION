@@ -49,6 +49,7 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainUserRecyclerView"
         android:layout_width="374dp"
         android:layout_height="359dp"
         android:layout_below="@+id/toolBar"

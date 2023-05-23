@@ -43,9 +43,11 @@ public class login extends AppCompatActivity {
         password = findViewById(R.id.editTextLogPassword);
         logsignup = findViewById(R.id.logsignup);
 
+
+
         logsignup.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent intent = new Intent(login.this , registration.class);
                 startActivity(intent);
                 finish();

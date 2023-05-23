@@ -10,16 +10,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/userimg"-->
+<!--            android:layout_width="151dp"-->
+<!--            android:layout_height="130dp"-->
+<!--            android:layout_constraintHorizontal_bias="0.503"-->
+<!--            android:layout_constraintVertical_bias="0.196"-->
+<!--            android:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:layout_constraintStart_toStartOf="parent"-->
+<!--            android:layout_constraintTop_toTopOf="parent"-->
+<!--            android:src="@drawable/photocamera" />-->
+
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profilerg0"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.503"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.196"
-            android:layout_width="151dp"
-            android:layout_height="130dp"
+            android:id="@+id/userimg"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
             android:src="@drawable/photocamera" />
 
         <LinearLayout
@@ -29,6 +39,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_bold"
@@ -37,6 +48,7 @@
                 android:textSize="23.4dp" />
 
             <TextView
+                android:id="@+id/userstatus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_regular"
